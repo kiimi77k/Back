@@ -1,5 +1,7 @@
 {
+  "$schema": "https://schema.railpack.com",
   "deploy": {
+    "startCommand": "python bitcoin_bot_lite.py",
     "aptPackages": ["libgl1", "libglib2.0-0", "libsm6", "libxext6", "libxrender1", "ffmpeg"]
   }
 }

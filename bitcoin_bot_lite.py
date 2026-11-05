@@ -54,7 +54,7 @@ from telegram.ext import (
 # الإعدادات العامة (Configuration)
 # --------------------------------------------------------------------------
 
-BOT_TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN", "8700204975:AAF6P0jJuDdCuJFYlxC4f3LITpaFg6RpEg4")
+BOT_TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN", "PUT_YOUR_BOT_TOKEN_HERE")
 
 # نموذج دقيق للصور الثابتة (جودة أعلى لأنها معالجة لمرة واحدة فقط)
 PHOTO_MODEL_PATH = os.environ.get("YOLO_PHOTO_MODEL", "yolo11s-pose.pt")
